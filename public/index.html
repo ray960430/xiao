@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Muse Harbor — 創作者與喜愛他們的人一起停泊、發光。" />
+    <title>Muse Harbor — 創作靠岸的地方</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;1,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grain"></div>
+    <header class="nav">
+      <a class="brand" href="#top" aria-label="Muse Harbor 首頁"><span class="brand-mark">✦</span> muse harbor</a>
+      <nav class="nav-links" aria-label="主要選單">
+        <a href="#creators">探索創作者</a><a href="#events">活動日曆</a><a href="#stories">港口日誌</a>
+      </nav>
+      <div class="nav-actions"><button class="icon-button" aria-label="搜尋">⌕</button><button class="join-top" data-open-modal>加入港灣 <span>↗</span></button></div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> a home for independent minds</p>
+          <h1>讓每一個<br /><em>創作宇宙</em><br />都有靠岸處。</h1>
+          <p class="hero-text">這裡收留還在發光的靈感，也讓喜歡它的人能夠走近。認識創作者、參與現場、一起把好作品留在世界上。</p>
+          <div class="hero-cta"><a class="button primary" href="#creators">開始探索 <span>↓</span></a><button class="button text-button" data-open-modal>我是創作者 <span>→</span></button></div>
+          <div class="hero-meta"><div><strong>1,280+</strong><span>停泊中的創作者</span></div><div><strong>48</strong><span>本週線上 / 線下相遇</span></div></div>
+        </div>
+        <div class="hero-art" aria-label="精選創作拼貼">
+          <div class="sun"><span>MAKE<br />WAVES</span></div>
+          <figure class="polaroid polaroid-main"><img src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=700&q=85" alt="繪畫創作桌"/><figcaption><i>01</i> 把日常畫成海</figcaption></figure>
+          <figure class="polaroid polaroid-small"><img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=400&q=80" alt="音樂人表演"/><figcaption>聲音現場</figcaption></figure>
+          <div class="scribble">◌<br /><span>made with<br />feeling</span></div>
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        </div>
+      </section>
+
+      <section class="marquee" aria-label="創作分類"><div>ILLUSTRATION <b>✦</b> MUSIC <b>✦</b> WRITING <b>✦</b> FILM <b>✦</b> PHOTOGRAPHY <b>✦</b> ILLUSTRATION <b>✦</b> MUSIC <b>✦</b> WRITING <b>✦</b></div></section>
+
+      <section class="section creators" id="creators">
+        <div class="section-heading"><div><p class="eyebrow"><span></span> meet the makers</p><h2>本週，在港灣<br />遇見的靈魂。</h2></div><a class="line-link" href="#creators">查看所有創作者 <span>→</span></a></div>
+        <div class="filter-row" role="tablist"><button class="filter active" data-filter="all">全部</button><button class="filter" data-filter="visual">視覺藝術</button><button class="filter" data-filter="sound">音樂與聲音</button><button class="filter" data-filter="words">文字創作</button><button class="filter" data-filter="moving">影像與動態</button></div>
+        <div class="creator-grid">
+          <article class="creator-card featured" data-category="visual"><div class="card-image"><img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=85" alt="插畫家林棠"/><span class="availability">● 開放合作</span></div><div class="card-details"><div><p class="category">ILLUSTRATOR · TAIPEI</p><h3>林棠 Tang Lin</h3><p>用顏色收集城市裡那些沒說出口的情緒。</p></div><button class="round-arrow" aria-label="查看林棠的頁面">↗</button></div></article>
+          <article class="creator-card" data-category="sound"><div class="card-image"><img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=800&q=85" alt="音樂製作人 YU"/></div><div class="card-details"><div><p class="category">MUSIC PRODUCER · TOKYO</p><h3>YU / 宇田</h3><p>給凌晨四點還醒著的人，一點節拍。</p></div><button class="round-arrow" aria-label="查看 YU 的頁面">↗</button></div></article>
+          <article class="creator-card" data-category="words"><div class="card-image"><img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=85" alt="作家許朵"/></div><div class="card-details"><div><p class="category">WRITER · KAOHSIUNG</p><h3>許朵 Hsu Duo</h3><p>寫下所有看似平凡，卻無法重來的事。</p></div><button class="round-arrow" aria-label="查看許朵的頁面">↗</button></div></article>
+        </div>
+      </section>
+
+      <section class="spotlight" id="stories"><div class="spotlight-image"><img src="https://images.unsplash.com/photo-1549490349-8643362247b5?auto=format&fit=crop&w=1100&q=85" alt="陶藝創作過程"/><div class="image-note">CURRENT<br />SPOTLIGHT</div></div><div class="spotlight-copy"><p class="eyebrow light"><span></span> creator's room</p><p class="big-quote">「我想做的，是讓用過的東西，再一次有被愛的可能。」</p><p class="spotlight-body">從平面設計轉向陶藝，阿渡把回收的玻璃、舊磁磚與旅行的碎片，慢慢捏成有溫度的日常器皿。</p><a href="#creators" class="button pale">走進阿渡的房間 <span>→</span></a><p class="signature">Adu Chen <small>ceramic artist</small></p></div></section>
+
+      <section class="section events" id="events"><div class="section-heading"><div><p class="eyebrow"><span></span> gather around</p><h2>不只是追蹤，<br />我們真的見面。</h2></div><p class="section-intro">工作坊、線上聆聽會、創作分享夜。<br />選一個你想靠近的時刻。</p></div><div class="event-list">
+        <article class="event"><time><b>09</b><span>SEP · TUE</span></time><div class="event-info"><span class="event-tag coral">線上</span><h3>《沒有靈感的日子》開放工作室</h3><p>和插畫家林棠一起，把卡住的心情畫出來。</p></div><div class="event-host"><img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=100&q=75" alt="林棠"/><span>with 林棠</span></div><button class="event-button" data-event="《沒有靈感的日子》開放工作室">我要參加 <span>↗</span></button></article>
+        <article class="event"><time><b>14</b><span>SEP · SUN</span></time><div class="event-info"><span class="event-tag blue">實體 · 台北</span><h3>午夜電台：聽一張還沒完成的專輯</h3><p>YU 帶著新作品，邀請你在聲音裡待一個晚上。</p></div><div class="event-host"><img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=100&q=75" alt="YU"/><span>with YU</span></div><button class="event-button" data-event="午夜電台：聽一張還沒完成的專輯">我要參加 <span>↗</span></button></article>
+        <article class="event"><time><b>21</b><span>SEP · SUN</span></time><div class="event-info"><span class="event-tag yellow">線上</span><h3>故事交換所：寫一封不會寄出的信</h3><p>許朵主持的兩小時寫作聚會，名額只有 12 位。</p></div><div class="event-host"><img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=100&q=75" alt="許朵"/><span>with 許朵</span></div><button class="event-button" data-event="故事交換所：寫一封不會寄出的信">我要參加 <span>↗</span></button></article>
+      </div></section>
+
+      <section class="journal"><div class="journal-title"><p class="eyebrow"><span></span> from the harbor</p><h2>最近靠岸的<br /><em>好作品</em></h2><a class="line-link" href="#stories">閱讀港口日誌 <span>→</span></a></div><div class="journal-cards"><a href="#stories" class="journal-card card-a"><span>創作散步</span><h3>當生活變得很快，<br />我們還能慢慢看嗎？</h3><small>READING · 6 MIN</small></a><a href="#stories" class="journal-card card-b"><span>聯名計畫</span><h3>在聲音與陶土之間，<br />長出一座小島。</h3><small>FEATURE · 4 MIN</small></a></div></section>
+    </main>
+    <footer><div class="footer-top"><a class="brand" href="#top"><span class="brand-mark">✦</span> muse harbor</a><p>願每個認真創作的人，<br />都找到同頻的浪。</p><button class="footer-join" data-open-modal>來停泊吧 <span>↗</span></button></div><div class="footer-bottom"><span>© 2025 MUSE HARBOR</span><span>MADE FOR THE INDEPENDENTLY CURIOUS</span><span>INSTAGRAM · CONTACT</span></div></footer>
+    <dialog id="join-modal"><button class="modal-close" aria-label="關閉">×</button><p class="eyebrow"><span></span> welcome aboard</p><h2>一起讓喜歡<br />有更多可能。</h2><p>留下你的信箱，下一場有趣的相遇會先找到你。</p><form id="join-form"><input type="email" required placeholder="你的 Email" aria-label="你的 Email"/><button class="button primary">送出 <span>→</span></button></form><small id="form-message"></small></dialog>
+    <script src="script.js"></script>
+  </body>
+</html>
